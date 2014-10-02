@@ -1,0 +1,39 @@
+{
+  "name": "nest2statsd",
+  "version": "0.1.0",
+  "dependencies": {
+    "lynx": {
+      "version": "0.2.0",
+      "from": "lynx@",
+      "resolved": "https://registry.npmjs.org/lynx/-/lynx-0.2.0.tgz",
+      "dependencies": {
+        "mersenne": {
+          "version": "0.0.3",
+          "from": "mersenne@~0.0.3",
+          "resolved": "https://registry.npmjs.org/mersenne/-/mersenne-0.0.3.tgz"
+        },
+        "statsd-parser": {
+          "version": "0.0.4",
+          "from": "statsd-parser@~0.0.4",
+          "resolved": "https://registry.npmjs.org/statsd-parser/-/statsd-parser-0.0.4.tgz"
+        }
+      }
+    },
+    "firebase": {
+      "version": "1.0.24",
+      "from": "firebase@",
+      "dependencies": {
+        "faye-websocket": {
+          "version": "0.7.2",
+          "from": "faye-websocket@>=0.6.0",
+          "dependencies": {
+            "websocket-driver": {
+              "version": "0.3.5",
+              "from": "websocket-driver@>=0.3.1"
+            }
+          }
+        }
+      }
+    }
+  }
+}

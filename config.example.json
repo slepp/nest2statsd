@@ -1,0 +1,8 @@
+{
+	"prefix": "nest-api",
+	"access_token": "c.Lb....",
+	"statsd" : {
+		"host": "localhost",
+		"port": 8125
+	}
+}
