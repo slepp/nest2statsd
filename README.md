@@ -6,7 +6,7 @@ to your own StatsD for graphing.
 
 To get started, copy the config.example.json to config.json and enter in
 your access_token into the configuration. Once that's there, simply start
-the get-stats.coffee inside Node, and it will start a data stream to StatsD
+the nest2statsd.coffee inside Node, and it will start a data stream to StatsD
 as Nest sends updates.
 
 Dependencies
@@ -29,4 +29,4 @@ Edit config.json to set your `access_token`
 
 Run the script:
 
-    node /usr/bin/coffee ./get-stats.coffee
+    node /usr/bin/coffee ./nest2statsd.coffee
