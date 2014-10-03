@@ -9,19 +9,24 @@ your access_token into the configuration. Once that's there, simply start
 the get-stats.coffee inside Node, and it will start a data stream to StatsD
 as Nest sends updates.
 
+Dependencies
+============
+
+This program uses Firebase and Lynx, which can be installed directly with `npm`. You will need a working StatsD/Graphite server set up to support the output from the script.
+
 Quick Setup
 ===========
 
 First, run:
 
-  npm install
+    npm install
 
 Copy config.example.json to config.json:
 
-  cp config.example.json config.json
+    cp config.example.json config.json
   
-Edit config.json to set your '''access_token'''
+Edit config.json to set your `access_token`
 
 Run the script:
 
-  node /usr/bin/coffee ./get-stats.coffee
+    node /usr/bin/coffee ./get-stats.coffee
